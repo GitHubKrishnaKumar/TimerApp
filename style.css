@@ -1,0 +1,76 @@
+
+body {
+    background-color: #070707;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 0px 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Timer Input Section */
+#timer-input {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+/* for remove up down sign in input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    background-color: yellow;
+    width: 200px;
+    color: black;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+#timerDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timer {
+    background: #6c6969;
+    color: white;
+    padding: 10px 0px 10px 0px !important;
+    border: 2px solid #28a745;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ended-timer {
+    background: #ffcccc;
+    border-color: #dc3545;
+    color: #dc3545;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
